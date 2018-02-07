@@ -38,6 +38,13 @@ export const browsers: Browser[] = [
     versionRegex: /Google Chrome Canary (\S+)/,
     profile: true,
     binary: 'google-chrome-canary'
+  },
+  {
+    name: 'firefox',
+    displayName: 'Firefox',
+    versionRegex: /Mozilla Firefox (\S+)/,
+    profile: true,
+    binary: 'firefox'
   }
 ]
 
